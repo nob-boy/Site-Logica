@@ -1,0 +1,85 @@
+/* Reset padrão do navegador */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o body */
+body {
+    background-image: linear-gradient(to bottom right, #4B0082, #10001C);
+    min-height: 100vh; /* Altere de height para min-height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; /* Define a fonte padrão */
+    font-size: 30px;
+    color: #FFD700;
+}
+
+/* Estilo para o header */
+header {
+    background-color: #FFD700;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Estilo para os logotipos */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left,
+.logo-right {
+    height: 60px;
+    width: auto;
+}
+
+.logo-left {
+    transform: scaleX(-1); /* Espelha horizontalmente a imagem para a esquerda */
+}
+
+/* Estilo para o conteúdo principal */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alterado para column para alinhar o título e a caixa */
+    flex: 1; /* Ocupa o espaço disponível */
+    width: 100%;
+    padding-top: 70px; /* Espaçamento acima da caixa de conteúdo */
+}
+
+/* Estilo para a caixa de conteúdo */
+.content-box {
+    border: 5px solid #32CD32;
+    padding: 30px;
+    max-width: 900px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza a caixa horizontalmente */
+    text-align: center;
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    background-color: transparent;
+}
+
+.content-box p {
+    margin-bottom: 15px; /* Espaçamento entre parágrafos */
+}
+h1{
+    color: #000;
+}
+h2 {
+    color: #FFD700; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+footer{
+    background-color: #4B0082;
+    margin: 20px;
+}

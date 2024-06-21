@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Intellectus Logicae</title>
+      <meta name="viewport" content="width=device-width, initial-scale=0.9">  <!-- Ajusta o zoom -->
+      <link rel="stylesheet" type="text/css" href="pgs.css"> 
+   </head>
+
+   <body>
+      <header>
+         <div class="container">
+            <img src="logo.png" class="logo-left" alt="Logo Esquerdo">
+            <h1>Intellectus Logicae</h1>
+            <img src="logo.png" class="logo-right" alt="Logo Direito">
+         </div>
+      </header>
+      <div class="main-content">
+         <h2>Forma normal prenex</h2>
+         <div class="content-box">
+            <p>Uma forma padronizada de expressões lógicas na lógica de primeira ordem é a forma normal prenex. Ela é alcançada por meio de um processo de normalização, que elimina quantificadores existenciais (∃) e quantificadores universais (∀), colocando todos eles no início da expressão lógica. Isso resulta em uma forma em que todas as fórmulas quantificadas são precedidas por todos os quantificadores, o que facilita as análises e transformações posteriores.</p>
+
+<p>A forma padrão do Prenex funciona da seguinte maneira:</p>
+
+<ul>
+    <li>Normalização: é o processo de rearranjar uma expressão lógica de forma que todos os quantificadores (∃ e ∀) apareçam consecutivamente no início da fórmula.</li>
+    <li>Benefícios: Facilita a aplicação de regras de inferência e a análise semântica da fórmula, o que permite uma melhor compreensão da estrutura lógica.</li>
+    <li>Processo: A eliminação de "∃" faz com que a expressão seja organizada de forma que todos os quantificadores existenciais sejam agrupados no início. Após a eliminação de "∀", todos os quantificadores universais devem ser colocados após os quantificadores existenciais, mantendo a ordem dos termos restantes.</li>
+</ul>
+
+<p>Por exemplo, considere a fórmula a seguir na lógica de primeira ordem:</p>
+
+<p>∃x ∀y(P(x, y) -> Q(y))</p>
+
+<p>Seguimos esses passos para colocar esta fórmula na forma prenex padrão:</p>
+
+<ul>
+    <li>Eliminação de "∃": Coloque o quantificador "∃x" no início da fórmula:</li>
+    <li>∃x(∀y (P(x, y) -> Q(y))).</li>
+    <li>Eliminação de "∀": Em seguida, coloque o quantificador "∀y" no início, mantendo a estrutura da fórmula:</li>
+    <li>∃x ∀y(P(x, y) -> Q(y)).</li>
+</ul>
+
+<p>Importância:</p>
+
+<ul>
+    <li>Análise Estrutural: A forma normal prenex destaca os quantificadores, simplificando a análise de fórmulas complexas. Isso permite verificar a validade, satisfazibilidade ou equivalência lógica de maneira mais sistemática.</li>
+    <li>Aplicação na teoria dos modelos: Facilita a ilustração de teoremas e a representação precisa de problemas em domínios como programação lógica, verificação formal e inteligência artificial.</li>
+</ul>
+
+<p>Por fim, a forma normal prenex é uma ferramenta essencial para a lógica de primeira ordem, pois facilita a análise e a manipulação de fórmulas mais estruturadas, ordenando os quantificadores e permitindo uma melhor compreensão das expressões lógicas complexas.</p>
+         </div>
+      </div>
+      <footer> </footer>
+   </body>
+</html>
